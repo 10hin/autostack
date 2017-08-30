@@ -78,7 +78,7 @@ public class AutoStackImpl<H, R extends AutoStack<?, ?>>  implements AutoStack<H
 
         @Override
         public boolean isEmpty() {
-            return false;
+            return true;
         }
 
         public static <H> AutoStack<?, ?> of() {
